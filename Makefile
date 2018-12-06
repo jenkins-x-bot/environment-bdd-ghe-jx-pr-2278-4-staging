@@ -1,6 +1,6 @@
 CHART_REPO := http://jenkins-x-chartmuseum:8080
 DIR := "env"
-NAMESPACE := "change-me"
+NAMESPACE := "bdd-ghe-jx-pr-2278-4-staging"
 OS := $(shell uname)
 
 build: clean
